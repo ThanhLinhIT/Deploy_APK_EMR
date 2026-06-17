@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRÍ VIỆT EMR - Tải ứng dụng</title>
+  <meta name="description" content="Tải ứng dụng TRÍ VIỆT EMR cho Android (.apk)" />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    :root {
+      --red: #e11d1d;
+      --blue: #1877f2;
+      --ink: #1f2937;
+      --muted: #6b7280;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(160deg, #eef4ff 0%, #f7f9fc 50%, #ffeaea 100%);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: #fff;
+      width: 100%;
+      max-width: 440px;
+      border-radius: 24px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+      padding: 36px 28px 30px;
+      text-align: center;
+    }
+    .banner { width: 100%; max-width: 300px; height: auto; margin: 0 auto 22px; display: block; }
+    .app-icon {
+      width: 104px; height: 104px;
+      border-radius: 24px;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+      margin-bottom: 18px;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 6px; }
+    .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 26px; }
+    .meta b { color: var(--ink); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 16px 20px;
+      background: linear-gradient(135deg, var(--blue), #0a5fd0);
+      color: #fff;
+      font-size: 1.08rem;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 14px;
+      box-shadow: 0 10px 24px rgba(24, 119, 242, 0.4);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(24, 119, 242, 0.5); }
+    .btn:active { transform: translateY(0); }
+    .btn svg { width: 22px; height: 22px; }
+    .steps {
+      text-align: left;
+      margin-top: 28px;
+      background: #f6f8fb;
+      border-radius: 14px;
+      padding: 18px 20px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .steps h2 { font-size: 0.95rem; color: var(--ink); margin-bottom: 8px; }
+    .steps ol { padding-left: 18px; }
+    .footer { margin-top: 24px; font-size: 0.8rem; color: #9ca3af; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="banner" src="logo-banner.png" alt="TRÍ VIỆT EMR" />
+    <img class="app-icon" src="app-icon.png" alt="App icon" />
+    <h1>Ứng dụng TRÍ VIỆT EMR</h1>
+    <p class="meta">Phiên bản <b>1.0.0</b> &middot; Android &middot; ~27 MB</p>
+
+    <a class="btn" href="TRIVIET-EMR.apk" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+        <polyline points="7 10 12 15 17 10" />
+        <line x1="12" y1="15" x2="12" y2="3" />
+      </svg>
+      Tải ứng dụng (.APK)
+    </a>
+
+    <div class="steps">
+      <h2>Hướng dẫn cài đặt</h2>
+      <ol>
+        <li>Nhấn nút <b>Tải ứng dụng</b> ở trên.</li>
+        <li>Mở file <b>.apk</b> vừa tải về.</li>
+        <li>Nếu được hỏi, cho phép <b>Cài đặt từ nguồn không xác định</b>.</li>
+        <li>Nhấn <b>Cài đặt</b> và mở ứng dụng.</li>
+      </ol>
+    </div>
+
+    <p class="footer">&copy; TRÍ VIỆT EMR</p>
+  </main>
+</body>
+</html>
